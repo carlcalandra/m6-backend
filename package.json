@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "server.js",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
