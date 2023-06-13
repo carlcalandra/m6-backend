@@ -40,7 +40,8 @@ app.use(
     saveUninitialized: false,
     cookie:{
       domain:".onrender.com",
-      secure:true
+      secure:true,
+      sameSite:"none"
     }
   })
 );
