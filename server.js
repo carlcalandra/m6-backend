@@ -38,10 +38,9 @@ app.use(
     secret: process.env.GITHUB_CLIENT_SECRET,
     resave: false,
     saveUninitialized: false,
-    cookie: {
-      SameSite: "none",
-      maxAge: 1000 * 60 * 60 * 60,
-    },
+    cookie:{
+      domain:"epiblog-backend.onrender.com"
+    }
   })
 );
 
