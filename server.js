@@ -39,7 +39,7 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie:{
-      domain:".onrender.com",
+      domain:"epiblog-backend.onrender.com",
       secure:true,
       sameSite:"none"
     }
