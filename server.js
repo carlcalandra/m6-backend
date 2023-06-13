@@ -39,7 +39,8 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie:{
-      domain:".onrender.com"
+      domain:".onrender.com",
+      secure:true
     }
   })
 );
