@@ -43,7 +43,7 @@ app.use(
       maxAge: 1000 * 60 * 60 * 60,
       secure:true,
       httpOnly:true,
-      domain:"epiblogs.onrender.com"
+      domain:"epiblog-backend.onrender"
     },
   })
 );
